@@ -1,0 +1,22 @@
+# Xcode build products
+build/
+DerivedData/
+
+# Xcode project settings (user-specific)
+*.xcworkspace
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Package.resolved
+
+# macOS metadata
+.DS_Store
+
+# Backup files
+*.orig
