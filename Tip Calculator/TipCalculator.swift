@@ -103,4 +103,14 @@ class TipCalculator: ObservableObject {
         
         return shares
     }
+    
+    /**
+     This function returns a share and its corresponding count. This is helps reduce the number of Text elements in the "Per Person" details list.
+     
+     - Returns: Dictionary of Decimal: Int, such as [12.33: 2, 12.34: 1]
+     */
+    func getCountedShares() -> [Decimal: Int] {
+        return Dictionary(grouping: getShares(), by: { $0 })
+            .mapValues { $0.count }
+    }
 }
