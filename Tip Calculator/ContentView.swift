@@ -170,8 +170,10 @@ struct ContentView: View {
                                     .font(.headline)
                                     .padding(.bottom, 5)
                                 
-                                ForEach(tipCalculator.getShares(), id: \.self) { share in
-                                    Text(share, format: .currency(code: Locale.current.currency?.identifier ?? "AUD"))
+                                // Get the shares, counted in a dict, and sorted to avoid unpredictable order
+                                var sortedShares = tipCalculator.getCountedShares().sorted(by: { $0.key < $1.key })
+                                ForEach(sortedShares, id: \.key) { (share, count) in
+                                    Text("\(count) x \(share, format: .currency(code: Locale.current.currency?.identifier ?? "AUD"))")
                                 }
                             }
                             .padding()
