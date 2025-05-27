@@ -1,14 +1,14 @@
-## Tip Calculator ##
+## Tip Calculator
 A basic demo application made with Swift to try out cross-platform Apple apps.
 
-### Features ###
+### Features
 - Calculates price + tip%
 - Splits the cost of the total among any number of people
 - Shows individual payments for each person when there is an uneven split (disproportionate shares)
 - Displays currency in the user's locale automatically
 - Automatically splits appropriately if using cash (5c is the lowest amount for AUD)
 
-### Gallery ###
+### Gallery
 
 #### macOS
 
