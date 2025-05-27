@@ -10,8 +10,9 @@ A basic demo application made with Swift to try out cross-platform Apple apps.
 
 ### Gallery ###
 
-| | macOS | iOS
+#### macOS
+
+| | Light | Dark
 --- | --- | ---
-Simple split | <img src="https://github.com/plxl/TipCalculator/blob/main/images/macos.png" height="250"> | <img src="https://github.com/plxl/TipCalculator/blob/main/images/ios.png" height="250">
-Cash split | <img src="https://github.com/plxl/TipCalculator/blob/main/images/macos_cash.png" height="250"> | <img src="https://github.com/plxl/TipCalculator/blob/main/images/ios_cash.png" height="250">
-macOS Dark | <img src="https://github.com/plxl/TipCalculator/blob/main/images/macos_dark.png" height="250"> | 
+Basic Split | <img src="https://github.com/plxl/TipCalculator/blob/main/images/macOS_light_default.png" height="250"> | <img src="https://github.com/plxl/TipCalculator/blob/main/images/macOS_dark_default.png" height="250">
+Cash Split (AUD) | <img src="https://github.com/plxl/TipCalculator/blob/main/images/macOS_light_cash.png" height="250"> | <img src="https://github.com/plxl/TipCalculator/blob/main/images/macOS_dark_cash.png" height="250">
